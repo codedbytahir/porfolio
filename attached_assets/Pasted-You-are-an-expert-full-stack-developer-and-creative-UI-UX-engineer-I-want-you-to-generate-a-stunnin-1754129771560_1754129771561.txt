@@ -1,0 +1,102 @@
+You are an expert full-stack developer and creative UI/UX engineer. I want you to generate a stunning, fully responsive developer portfolio web app using React and Tailwind CSS. The portfolio must follow modern design principles with smooth animation, glassmorphism, 3D components, and gradient aesthetics.
+
+# 🔧 Tech Stack & Libraries:
+- React.js (latest version)
+- Tailwind CSS (with plugins: @tailwindcss/typography, @tailwindcss/forms, @tailwindcss/animations)
+- Framer Motion (for animation)
+- GSAP + ScrollTrigger (for scroll-based animation)
+- Lenis (smooth scrolling)
+- Vanta.js or Spline (for background 3D visuals)
+- react-icons (for all icons)
+- emailjs-com (for contact form)
+- swiper.js or keen-slider (for testimonial carousel)
+- react-tilt or custom CSS for 3D hover effect
+
+# 🧱 Sections & Layout Requirements:
+
+1. Hero / Landing:
+- Full-screen glassmorphic container
+- "Hi, I’m Tahir — a Creative Full Stack Developer"
+- Tagline: "Turning ideas into functional digital products with pixel-perfect code."
+- 2 CTA buttons: "Hire Me", "See My Work"
+- 3D Spline or animated background
+- Cursor bubble animation following user cursor
+- Motion and parallax effects on text & buttons
+
+2. About Me:
+- Short, human-readable paragraph about me
+- Developer timeline with subtle animation
+- Glass or gradient background
+- Fade-in effects on scroll
+
+3. Skills:
+- Categorized skill cards (Frontend, Backend, Tools)
+- Each card must have icon, skill name, experience level
+- Animate-in with framer-motion or AOS
+- Neon gradient card hover effects
+- Optional: radial skill charts (optional)
+
+4. Projects:
+- 3 to 4 Projects displayed in 3D tilt cards
+- Show image preview, stack used, project description
+- Flip or modal to show GitHub/Live Demo buttons
+- Gradient glowing borders and scroll animation
+- Responsive grid layout
+
+5. Services:
+- 3-4 animated cards with icon, title, short description
+- Flip or reveal effect on hover
+- Glassmorphic cards with motion scale on hover
+
+6. Testimonials (Mock Data):
+- 2–3 testimonial cards using swiper or slider
+- Avatar, name, quote
+- Fade-in / slide-in animation
+
+7. Contact Me:
+- Simple form with Name, Email, Message
+- Connect to EmailJS
+- Show animated success response
+- Use Lottie or checkmark animation if needed
+
+8. Footer:
+- Social media icons (GitHub, LinkedIn, WhatsApp)
+- Quick navigation links
+- Subtle fade-in on scroll
+
+# 🎨 Design Guidelines:
+- Glassmorphism with soft blur and translucent cards
+- Full-site animation using framer-motion + scroll libraries
+- Cursor aura/bubble animation when hovering
+- Smooth scrolling (Lenis)
+- Neon & gradient themes (CoolHue palette or custom)
+- Use Haikei for SVG backgrounds where applicable
+- Fully mobile-responsive with Tailwind grid/flex layout
+- Avoid unnecessary libraries unless specified
+
+# 💼 Bonus Behavior:
+- Include dark mode support (optional switch toggle)
+- Lazy-load sections on scroll
+- Use IntersectionObserver for performance
+- Load data from /data folders or mock arrays for now
+
+# 📁 Folder Structure:
+Structure the codebase cleanly:
+- /components → all sections
+- /assets → images/icons
+- /data → static data for skills/projects
+- /App.jsx → main layout
+- Use functional components and clean Tailwind utility classes
+
+# ⚠️ Note:
+Don't build the admin panel now, but structure the project such that I can later add Firebase/Supabase-based CMS for dynamic content editing.
+
+# 📦 Final Output:
+Return a complete scaffolded React project folder structure with:
+- All components
+- Tailwind setup
+- Working animations
+- Mobile responsiveness
+- Beautiful, clean code
+- Ready to deploy on Vercel or Netlify
+

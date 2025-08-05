@@ -1,0 +1,49 @@
+.perspective {
+  perspective: 1200px;
+}
+
+.service-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  perspective: 1200px;
+}
+
+.service-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s ease;
+}
+
+/* 💥 THIS triggers flip on hover */
+.service-card:hover .service-inner {
+  transform: rotateY(180deg);
+}
+
+.service-front,
+.service-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 1rem;
+  top: 0;
+  left: 0;
+}
+
+/* FRONT */
+.service-front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+/* BACK */
+.service-back {
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+.service-card:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
